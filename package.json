@@ -1,0 +1,35 @@
+{
+    "name": "harmony",
+    "displayName": "Harmony Theme",
+    "version": "0.0.1",
+    "description": "themes with harmonic colors",
+    "main": "./src/index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/omesb/harmony"
+    },
+    "author": "omesb",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+      "theme",
+      "dark",
+      "light",
+      "harmony",
+      "warm"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "harmony",
+                "uiTheme": "vs-dark",
+                "path": "./themes/harmony-color-theme.json"
+            }
+        ]
+    }
+}
