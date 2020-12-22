@@ -1,8 +1,8 @@
 {
-    "name": "harmony",
+    "name": "affinity",
     "type": "dark",
     "colors": {
-        "activityBar.background": "#ffffff1a",
+        "activityBar.background": "#F09483",
 		"activityBarBadge.background": "#E95678",
 		"badge.background": "#ffffff1a",
 		"editor.background": "#242424",
@@ -18,7 +18,7 @@
 		"statusBar.background": "#ffffff1a",
 		"statusBar.foreground": "#cccccc",
 		"tab.activeBackground": "#ffffff1a",
-		"tab.activeBorder": "#B877DB",
+		"tab.activeBorder": "#F09483",
 		"tab.inactiveBackground": "#ffffff0b",
 		"titleBar.activeBackground": "#ffffff1a",
 		"titleBar.activeForeground": "#cccccc",
@@ -26,7 +26,7 @@
     },
     "tokenColors": [
         {
-            "name": "Keywords",
+            "name": "keywords-color",
             "scope": [
                 "keyword",
                 "keyword.operator.new",
@@ -43,7 +43,7 @@
             }
         },
         {
-            "name": "One",
+            "name": "outer-color",
             "scope": [
                 "entity.name.variable",
                 "entity.name.tag",
@@ -60,7 +60,7 @@
             }
         },
         {
-            "name": "Two",
+            "name": "middle-color",
             "scope": [
                 "constant",
                 "entity.other.attribute-name",
@@ -76,7 +76,7 @@
             }
         },
         {
-            "name": "Three",
+            "name": "inner-color",
             "scope": [
                 "entity.other.inherited-class",
                 "entity.other.attribute-name.pseudo-element",
@@ -91,14 +91,14 @@
             }
         },
         {
-            "name": "Types",
+            "name": "core-color",
             "scope": ["entity.name", "entity.name.type", "storage.type.cs", "support", "variable.language"],
             "settings": {
                 "foreground": "#FAC29A"
             }
         },
         {
-            "name": "Functions",
+            "name": "function-color",
             "scope": [
                 "constant.character.escape",
                 "entity.name.function",
@@ -111,7 +111,7 @@
             }
         },
         {
-            "name": "Text",
+            "name": "text-color",
             "scope": [
                 "comment",
                 "keyword.operator",

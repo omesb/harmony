@@ -1,6 +1,6 @@
 {
-    "name": "theme-harmony",
-	"displayName": "Harmony Theme",
+    "name": "theme-affinity",
+	"displayName": "Affinity Theme",
 	"description": "A beautifully warm dual theme for Visual Studio Code",
 	"author": "Omes Baltes",
 	"version": "0.0.2",
@@ -15,19 +15,19 @@
 	"keywords": [
 		"theme",
 		"dark",
-		"harmony",
+		"affinity",
 		"warm"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/omesb/harmony"
+		"url": "https://github.com/omesb/affinity"
 	},
     "contributes": {
         "themes": [
             {
-                "label": "Harmony",
+                "label": "Affinity",
                 "uiTheme": "vs-dark",
-                "path": "./themes/harmony-color-theme.json"
+                "path": "./themes/affinity-color-theme.json"
             }
         ]
     }
