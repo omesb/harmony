@@ -27,7 +27,12 @@
             {
                 "label": "Affinity",
                 "uiTheme": "vs-dark",
-                "path": "./themes/affinity.json"
+                "path": "./themes/affinity-color-theme.json"
+            },
+            {
+                "label": "Affinity Pumpkin",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pumpkin-color-theme.json"
             }
         ]
     },
