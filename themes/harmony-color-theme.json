@@ -1,20 +1,59 @@
 {
     "name": "harmony",
     "type": "dark",
-    "colors": {},
+    "colors": {
+        "activityBar.background": "#ffffff1a",
+		"activityBarBadge.background": "#E95678",
+		"badge.background": "#ffffff1a",
+		"editor.background": "#242424",
+		"editor.foreground": "#cccccc",
+		"editor.lineHighlightBackground": "#ffffff0b",
+		// "editor.selectionBackground": "#204182cc",
+		"editorGutter.background": "#ffffff0b",
+		"editorSuggestWidget.background": "#303030",
+		// "editorSuggestWidget.highlightForeground": "#cc6e2f",
+		// "editorSuggestWidget.selectedBackground": "#204182cc",
+        "sideBar.background": "#222222",
+		"sideBar.border": "#ffffff1a",
+		"statusBar.background": "#ffffff1a",
+		"statusBar.foreground": "#cccccc",
+		"tab.activeBackground": "#ffffff1a",
+		"tab.activeBorder": "#B877DB",
+		"tab.inactiveBackground": "#ffffff0b",
+		"titleBar.activeBackground": "#ffffff1a",
+		"titleBar.activeForeground": "#cccccc",
+		"titleBar.inactiveBackground": "#ffffff10",
+    },
     "tokenColors": [
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "keyword.operator.new",
+                "keyword.operator.expression",
+                "keyword.operator.logical",
+                "keyword.operator.delete",
+                "markup.bold",
+                "storage",
+                "punctuation.definition.template-expression",
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#B877DB"
+            }
+        },
         {
             "name": "One",
             "scope": [
-                "entity.name.tag",
                 "entity.name.variable",
+                "entity.name.tag",
+                "punctuation.definition.tag",
                 "variable",
                 "markup.heading",
                 "entity.name.section",
                 "support.variable",
                 "support.type.property-name",
-                "meta.object-literal.key",
-                "punctuation.definition.tag"
+                "meta.object-literal.key"
             ],
             "settings": {
                 "foreground": "#E95678"
@@ -49,23 +88,6 @@
             ],
             "settings": {
                 "foreground": "#FAB795"
-            }
-        },
-        {
-            "name": "Keywords",
-            "scope": [
-                "keyword",
-                "keyword.operator.new",
-                "keyword.operator.expression",
-                "keyword.operator.logical",
-                "keyword.operator.delete",
-                "markup.bold",
-                "storage",
-                "punctuation.definition.template-expression",
-                "punctuation.section.embedded"
-            ],
-            "settings": {
-                "foreground": "#B877DB"
             }
         },
         {
