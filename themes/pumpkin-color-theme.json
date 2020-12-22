@@ -10,7 +10,7 @@
         "editor.lineHighlightBackground": "#ffffff0b",
         "editorSuggestWidget.background": "#303030",
         "sideBar.background": "#202020",
-        "sideBarSectionHeader.background": "#202020",
+        "sideBarSectionHeader.background": "#242424",
         "sideBarSectionHeader.border": "#5a5a5a",
         "statusBar.background": "#202020",
         "statusBar.foreground": "#cccccc",
@@ -37,7 +37,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#a3586d"
+                "foreground": "#129b12"
             }
         },
         {
@@ -55,7 +55,7 @@
                 "meta.object-literal.key"
             ],
             "settings": {
-                "foreground": "#f46a4e"
+                "foreground": "#129b12"
             }
         },
         {
@@ -71,7 +71,7 @@
                 "punctuation.definition.list"
             ],
             "settings": {
-                "foreground": "#f4874c"
+                "foreground": "#78c421"
             }
         },
         {
@@ -86,21 +86,21 @@
                 "string.template"
             ],
             "settings": {
-                "foreground": "#f3af5a"
+                "foreground": "#dadd1d"
             }
         },
         {
             "name": "core-color",
             "scope": [
                 "entity.name",
-                "entity.name",
                 "entity.name.type",
+                "entity.name.type.class",
                 "storage.type.cs",
                 "support",
                 "variable.language"
             ],
             "settings": {
-                "foreground": "#f3af5a"
+                "foreground": "#2BF0D8"
             }
         },
         {
@@ -113,7 +113,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#a3586d"
+                "foreground": "#ee9a69"
             }
         },
         {
@@ -121,6 +121,7 @@
             "scope": [
                 "comment",
                 "keyword.operator",
+                "variable.other.property",
                 "support.type.property-name.css",
                 "string.template meta.embedded",
                 "punctuation.separator"
@@ -139,7 +140,7 @@
         {
             "name": "Italic",
             "scope": [
-                "comment"
+                "comment",
             ],
             "settings": {
                 "fontStyle": "italic"

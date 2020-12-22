@@ -1,0 +1,18 @@
+{
+	"name": "Affinity Teal",
+	"type": "dark",
+	"ui": {},
+	"font": {
+	  "keywords-color": "#9e6646",
+	  "outer-color": "#51723b",
+	  "middle-color": "#84a459",
+	  "inner-color": "#b1b89f",
+	  "core-color": null,
+	  "function-color": "#a3586d",
+	  "text-color": "#BBBBBB",
+	  "Bold": [],
+	  "Italic": [],
+	  "Underline": []
+	}
+  }
+  
