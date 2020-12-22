@@ -1,29 +1,27 @@
 {
     "name": "theme-harmony",
-    "displayName": "Harmony Theme",
-    "description": "themes with harmonic colors",
-    "version": "0.0.2",
-    "author": "omesb",
-    "publisher": "",
-    "license": "MIT",
-    "main": "./src/index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/omesb/harmony"
-    },
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-      "theme",
-      "dark",
-      "light",
-      "harmony",
-      "warm"
-    ],
+	"displayName": "Harmony Theme",
+	"description": "A beautifully warm dual theme for Visual Studio Code",
+	"author": "Omes Baltes",
+	"version": "0.0.2",
+	"publisher": "omesb",
+	"license": "MIT",
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"harmony",
+		"warm"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/omesb/harmony"
+	},
     "contributes": {
         "themes": [
             {
