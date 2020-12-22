@@ -1,34 +1,40 @@
 {
     "name": "theme-affinity",
-	"displayName": "Affinity Theme",
-	"description": "A beautifully warm dual theme for Visual Studio Code",
-	"author": "Omes Baltes",
-	"version": "0.0.2",
-	"publisher": "omesb",
-	"license": "MIT",
-	"engines": {
-		"vscode": "*"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"theme",
-		"dark",
-		"affinity",
-		"warm"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/omesb/affinity"
-	},
+    "displayName": "Affinity Theme",
+    "description": "A beautifully warm dual theme for Visual Studio Code",
+    "author": "Omes Baltes",
+    "version": "0.0.2",
+    "publisher": "omesb",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "affinity",
+        "warm"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/omesb/affinity"
+    },
     "contributes": {
         "themes": [
             {
                 "label": "Affinity",
                 "uiTheme": "vs-dark",
-                "path": "./themes/affinity-color-theme.json"
+                "path": "./themes/affinity.json"
             }
         ]
+    },
+    "scripts": {
+        "install": "./src/index.js"
+    },
+    "dependencies": {
+        "mustache": "^4.1.0"
     }
 }
