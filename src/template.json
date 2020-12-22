@@ -1,7 +1,134 @@
 {
-	"$schema": "vscode://schemas/color-theme",
-	"name": "{{name}}",
-  "type": "{{type}}",
-	"colors": {},
-	"tokenColors": [],
+    "name": "{{name}}",
+    "type": "{{type}}",
+    "colors": {},
+    "tokenColors": [
+        {
+            "name": "keywords-color",
+            "scope": [
+                "keyword",
+                "keyword.operator.new",
+                "keyword.operator.expression",
+                "keyword.operator.logical",
+                "keyword.operator.delete",
+                "markup.bold",
+                "storage",
+                "punctuation.definition.template-expression",
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "{{font.keywords-color}}"
+            }
+        },
+        {
+            "name": "outer-color",
+            "scope": [
+                "entity.name.variable",
+                "entity.name.tag",
+                "support.class.component",
+                "punctuation.definition.tag",
+                "variable",
+                "markup.heading",
+                "entity.name.section",
+                "support.variable",
+                "support.type.property-name",
+                "meta.object-literal.key"
+            ],
+            "settings": {
+                "foreground": "{{font.outer-color}}"
+            }
+        },
+        {
+            "name": "middle-color",
+            "scope": [
+                "constant",
+                "entity.other.attribute-name",
+                "keyword.other.unit",
+                "markup.inline.raw",
+                "markup.fenced_code.block",
+                "string.regexp",
+                "string.other.link",
+                "punctuation.definition.list"
+            ],
+            "settings": {
+                "foreground": "{{font.middle-color}}"
+            }
+        },
+        {
+            "name": "inner-color",
+            "scope": [
+                "entity.other.inherited-class",
+                "entity.other.attribute-name.pseudo-element",
+                "entity.other.attribute-name.pseudo-class",
+                "markup.quote",
+                "markup.underline.link",
+                "string.quoted",
+                "string.template"
+            ],
+            "settings": {
+                "foreground": "{{font.inner-color}}"
+            }
+        },
+        {
+            "name": "core-color",
+            "scope": [
+                "entity.name",
+                "entity.name",
+                "entity.name.type",
+                "storage.type.cs",
+                "support",
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "{{font.core-color}}"
+            }
+        },
+        {
+            "name": "function-color",
+            "scope": [
+                "constant.character.escape",
+                "entity.name.function",
+                "entity.other.attribute-name.id",
+                "markup.italic",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "{{font.function-color}}"
+            }
+        },
+        {
+            "name": "text-color",
+            "scope": [
+                "comment",
+                "keyword.operator",
+                "support.type.property-name.css",
+                "string.template meta.embedded",
+                "punctuation.separator"
+            ],
+            "settings": {
+                "foreground": "{{font.text-color}}"
+            }
+        },
+        {
+            "name": "Bold",
+            "scope": [],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Italic",
+            "scope": ["comment"],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Underline",
+            "scope": [],
+            "settings": {
+                "fontStyle": "underline"
+            }
+        }
+    ]
 }

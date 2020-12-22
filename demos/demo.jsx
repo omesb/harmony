@@ -1,29 +1,40 @@
-import React from 'react'
-import calculate from '../logic/calculate'
-import './App.css'
-import ButtonPanel from './ButtonPanel'
-import Display from './Display'
+import React, { Component } from 'react';
+import Hey from 'react';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      total: null
-    }
-  }
+const name = 899;
+export default class Demo extends Component {
+	state = {
+		time: new Date(),
+		void: null,
+	};
 
-  handleClick = buttonName => {
-    this.setState(calculate(this.state, buttonName))
-  }
+	/**
+	 * this is a description
+	 * @param {*} props
+	 */
+	constructor(props) {
+		super(props);
+		this.state.time = 0;
+		this.clickHandler = this.clickHandler.bind(this);
+	}
 
-  render() {
-    return (
-      <div className="component-app">
-        Tacos
-        <Display value={this.state.next || this.state.total || '0'} />
-        <ButtonPanel clickHandler={this.handleClick} />
-      </div>
-    )
-  }
+	clickHandler(event) {
+		console.log(event.currentTarget);
+		if (true) {
+			setTimeout(() => {
+				alert(`you clicked me`);
+			}, 5000);
+		}
+	}
+
+	render() {
+		return (
+			<button class={`button ${name}`} onClick={this.clickHandler}>
+				<ul id="list" class={`Menu ${4 * 20}`}>
+					<li>HTML Bruh</li>
+					<Hey>more &gt;</Hey>
+				</ul>
+			</button>
+		);
+	}
 }
-export default App

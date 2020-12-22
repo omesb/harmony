@@ -1,6 +1,5 @@
 {
-    "$schema": "vscode://schemas/color-theme",
-    "name": "affinity",
+    "name": "Affinity Pumpkin",
     "type": "dark",
     "colors": {
         "activityBar.background": "#202020",
@@ -10,12 +9,9 @@
         "editor.foreground": "#cccccc",
         "editor.lineHighlightBackground": "#ffffff0b",
         "editorSuggestWidget.background": "#303030",
-        // "editorSuggestWidget.highlightForeground": "#cc6e2f",
-        // "editorSuggestWidget.selectedBackground": "#204182cc",
         "sideBar.background": "#202020",
         "sideBarSectionHeader.background": "#202020",
         "sideBarSectionHeader.border": "#5a5a5a",
-        // "sideBar.border": "#ffffff1a",
         "statusBar.background": "#202020",
         "statusBar.foreground": "#cccccc",
         "editorGroupHeader.tabsBackground": "#242424",
@@ -95,7 +91,14 @@
         },
         {
             "name": "core-color",
-            "scope": ["entity.name", "entity.name.type", "storage.type.cs", "support", "variable.language"],
+            "scope": [
+                "entity.name",
+                "entity.name",
+                "entity.name.type",
+                "storage.type.cs",
+                "support",
+                "variable.language"
+            ],
             "settings": {
                 "foreground": "#f3af5a"
             }
@@ -135,7 +138,9 @@
         },
         {
             "name": "Italic",
-            "scope": ["comment"],
+            "scope": [
+                "comment"
+            ],
             "settings": {
                 "fontStyle": "italic"
             }
@@ -145,12 +150,6 @@
             "scope": [],
             "settings": {
                 "fontStyle": "underline"
-            }
-        },
-        {
-            "scope": "",
-            "settings": {
-                "foreground": "#FF0000"
             }
         }
     ]

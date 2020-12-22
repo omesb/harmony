@@ -32,7 +32,7 @@
         ]
     },
     "scripts": {
-        "install": "./src/index.js"
+        "build": "node ./src/build.js"
     },
     "dependencies": {
         "mustache": "^4.1.0"
